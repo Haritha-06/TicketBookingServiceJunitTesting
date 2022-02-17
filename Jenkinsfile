@@ -13,7 +13,7 @@
                          }
 		      stage('Deploy to Tomcat'){
 			      steps{
-                               sh "copy /var/lib/jenkins/workspace/NewJob/webapp/target/webapp.war /home/ec2-user/apache-tomcat-9.0.58/webapps"
+                               sh "copy /var/lib/jenkins/workspace/NewJob/webapp/target/webapp.war "/home/ec2-user/apache-tomcat-9.0.58/webapps""
 "
 				    
 				   }
