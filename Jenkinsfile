@@ -3,7 +3,7 @@
               stages {
                    stage('Clone') {
                          steps {
-                            git credentialsId: 'Github', url: 'https://github.com/Ijaz0059/welcometoskillrary.git'
+                            git credentialsId: 'Github', url: 'https://github.com/skillrary/welcometoskillrary.git'
                             }
                          }
                    stage('Build') {
